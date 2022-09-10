@@ -1,8 +1,10 @@
 # Реализуйте алгоритм перемешивания списка.
  
+import random
+
 user_list = list(map(int, input('Введите числовой список: ').split(' ')))
 print(user_list)
- 
-user_list[::2], user_list[1::2] = user_list[1::2], user_list[::2] # меняем четные индексы на нечетные
+
+random.shuffle(user_list)
 
 print(user_list)
