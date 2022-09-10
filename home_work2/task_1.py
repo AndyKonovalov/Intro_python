@@ -12,4 +12,4 @@ summ_digit = 0
 for i in number:
     if i.isdigit():
         summ_digit += int(i)
-print(summ_digit)
+print(f'Сумма цифр десятичной дроби = {summ_digit}')
