@@ -10,7 +10,6 @@ while i <= num:
     if num % i == 0:
         res_list.append(i)
         num //= i
-        # i = 2
     else:
         i += 1
 print(f'Простые множители числа {user_data} следующие: {res_list}')
