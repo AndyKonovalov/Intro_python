@@ -1,7 +1,7 @@
 # модуль экспорта данных 
 
 def export_data():
-    with open('phone.csv', 'r') as file:
+    with open(r'C:\Users\79104\Desktop\GeekBrains materials\Programming\Python_lessons\home_work_python\home_work7\phone.csv', 'r') as file:
         data = []
         t = []
         for line in file:
